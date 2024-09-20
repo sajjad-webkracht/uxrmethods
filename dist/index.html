@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | UXRMethods</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-BcSKE94o.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BmK7m83p.css">
+  </head>
+  <body class="bg-zinc-900 font-sans">
+    <div class="px-4 md:px-12 lg:px-28 xl:max-w-screen-2xl xl:mx-auto">
+      <header class="py-8 md:py-12 flex justify-between">
+        <a href="/"><img src="/assets/UXRmethods-CLzcPLbp.svg" alt=""></a>
+        <div class="text-white hidden md:flex gap-6">
+          <a href="/about.html" class="text-lg relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0 after:bg-pink-600 after:transition-all after:duration-300 after:scale-x-0 hover:after:h-[2px] hover:after:scale-x-100">About</a>
+          <a href="/contribute.html" class="text-lg relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0 after:bg-pink-600 after:transition-all after:duration-300 after:scale-x-0 hover:after:h-[2px] hover:after:scale-x-100">Contribute</a>
+        </div>
+            <!-- Menu Toggle Icon -->
+            <button id="menu-toggle" class="md:hidden">
+              <img src="data:image/svg+xml,%3csvg%20width='24'%20height='15'%20viewBox='0%200%2024%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.5'%20width='24'%20height='3'%20fill='%23FAFAFA'/%3e%3crect%20y='11.5'%20width='24'%20height='3'%20fill='%23FAFAFA'/%3e%3c/svg%3e" alt="">
+            </button>
+            <!-- Slide-in Menu -->
+            <div id="menu"
+              class="z-10 md:hidden fixed top-0 right-0 h-full w-full bg-zinc-900 text-zinc-50 transform translate-x-full transition-transform duration-300 ease-in-out p-4">
+              <button id="back-button" class="text-2xl mb-8 focus:outline-none my-4">
+                <img src="data:image/svg+xml,%3csvg%20width='24'%20height='22'%20viewBox='0%200%2024%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.4424%2012.4997C1.54058%2012.5156%201.63996%2012.523%201.73942%2012.5217L18.6709%2012.5217L18.3017%2012.6934C17.9409%2012.8643%2017.6126%2013.0967%2017.3315%2013.3803L12.5835%2018.1283C11.9582%2018.7253%2011.8531%2019.6856%2012.3345%2020.4036C12.8948%2021.1688%2013.9693%2021.3349%2014.7345%2020.7746C14.7963%2020.7293%2014.8551%2020.68%2014.9103%2020.6268L23.4962%2012.0409C24.1672%2011.3707%2024.1678%2010.2834%2023.4976%209.61242L23.4962%209.61108L14.9103%201.02514C14.2388%200.355493%2013.1515%200.356995%2012.4818%201.02852C12.4291%201.08138%2012.3799%201.13761%2012.3345%201.19686C11.8531%201.91491%2011.9582%202.8752%2012.5835%203.47213L17.323%208.22875C17.5749%208.48097%2017.8646%208.69242%2018.1815%208.85552L18.6967%209.08734L1.83391%209.08734C0.956698%209.05477%200.187076%209.66754%200.0222792%2010.5298C-0.129531%2011.4659%200.506259%2012.3479%201.4424%2012.4997Z'%20fill='%23FAFAFA'/%3e%3c/svg%3e" alt="">
+              </button>
+              <div class="">
+                <ul class="space-y-4">
+                  <li><a href="About.html" class="block text-lg text-zinc-50">About</a></li>
+                  <li><a href="Contribute.html" class="block text-lg text-zinc-50">Contribute</a></li>
+                </ul>
+              </div>
+            </div>
+      </header>
+
+      <!--Heading-->
+      <div class="flex text-white py-12 items-center justify-between">
+        <div class="w-full md:w-1/2">
+          <h1 class="text-3xl tmd:text-4xl mb-2"><b>UXR</b>Methods is a comprehensive collection of essential User Experience Research methods.</h1>
+          <p class="text-xl">This project is driven by a passion for the UX community, aiming to help build a better world.</p>
+        </div>
+        <div id="threejs-container" class="w-[450px] h-[350px]"></div>
+      </div>
+      <!--End of Heading-->
+
+      <!--Items-->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 py-12">
+
+        <div class="bg-pink-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">A/B Testing</h2>
+            <p class="text-base mb-8">A/B Testing, also known as split testing, is a method used in UX research to compare two versions of a design to determine which one performs better.</p>  
+          </div>
+          <a href="ABTesting.html" class="bg-zinc-900 text-pink-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-emerald-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Card Sorting</h2>
+            <p class="text-base mb-8">Card Sorting is a UX research method where participants organize topics or items into categories that make sense to them.</p>
+          </div>
+          <a href="CardSorting.html" class="bg-zinc-900 text-emerald-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-sky-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Preference Testing</h2>
+            <p class="text-base mb-8">Preference Testing in UX research involves presenting users with multiple design options to understand their preferences and opinions.</p>
+          </div>
+          <a href="PreferenceTesting.html" class="bg-zinc-900 text-sky-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+        
+        <div class="bg-amber-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Contextual Inquiry</h2>
+            <p class="text-base mb-8">Contextual Inquiry is a UX research method where researchers observe and interview users in their natural environment while they perform tasks.</p>
+          </div>
+          <a href="ContextualInquiry.html" class="bg-zinc-900 text-amber-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-violet-500 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Concept Testing</h2>
+            <p class="text-base mb-8">Concept Testing in UX research involves evaluating the feasibility, appeal, and potential success of a design concept before it’s fully developed.</p>
+          </div>
+          <a href="ConceptTesting.html" class="bg-zinc-900 text-violet-500 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-rose-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Diary Study</h2>
+            <p class="text-base mb-8">Diary Study is a UX research method where participants record their thoughts, feelings, and behaviors over an extended period while using a product.</p>
+          </div>
+          <a href="DiaryStudy.html" class="bg-zinc-900 text-rose-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-sky-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Eyetracking</h2>
+            <p class="text-base mb-8">Eye Tracking in UX research involves using specialized technology to monitor and analyze where users look on a digital interface and for how long.</p>
+          </div>
+          <a href="Eyetracking.html" class="bg-zinc-900 text-sky-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-emerald-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Five-Second Test</h2>
+            <p class="text-base mb-8">The Five-Second Test in UX research is a method used to gauge users’ first impressions of a design. Participants are shown an image of a screen for just five seconds and then asked questions about what they saw.</p>
+          </div>
+          <a href="FiveSecondTest.html" class="bg-zinc-900 text-emerald-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-amber-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Moderated Usability Testing</h2>
+            <p class="text-base mb-8">Moderated Usability Testing in UX research involves a researcher guiding participants through tasks while observing and collecting data on their interactions and feedback.</p>
+          </div>
+          <a href="ModeratedUsabilityTesting.html" class="bg-zinc-900 text-amber-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-violet-500 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Unmoderated Usability Testing</h2>
+            <p class="text-base mb-8">Unmoderated Usability Testing in UX research involves participants completing tasks on their own without a moderator present.</p>
+          </div>
+          <a href="UnmoderatedUsabilityTesting.html" class="bg-zinc-900 text-violet-500 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-pink-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Survey</h2>
+            <p class="text-base mb-8">A Survey in UX research is a method used to collect data from users about their experiences, preferences, and behaviors.</p>
+          </div>
+          <a href="Survey.html" class="bg-zinc-900 text-pink-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-sky-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Prototype Testing</h2>
+            <p class="text-base mb-8">Prototype Testing in UX research involves evaluating a prototype to validate its design and identify areas for improvement before full-scale production.</p>
+          </div>
+          <a href="PrototypeTesting.html" class="bg-zinc-900 text-sky-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-emerald-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">User Interview</h2>
+            <p class="text-base mb-8">User Interviews in UX research involve one-on-one conversations between a researcher and a user to gather in-depth insights about their experiences, needs, and behaviors.</p>
+          </div>
+          <a href="UserInterview.html" class="bg-zinc-900 text-emerald-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-amber-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Multivariate Test</h2>
+            <p class="text-base mb-8">Multivariate Testing in UX research involves evaluating multiple variables simultaneously to determine the most effective combination of design elements.</p>
+          </div>
+          <a href="MultivariateTest.html" class="bg-zinc-900 text-amber-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-violet-500 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Desirability Study</h2>
+            <p class="text-base mb-8">Desirability Study in UX research involves assessing the emotional and aesthetic appeal of a design to understand how users perceive and respond to it.</p>
+          </div>
+          <a href="DesirabilityStudy.html" class="bg-zinc-900 text-violet-500 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-pink-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Field Study</h2>
+            <p class="text-base mb-8">Field Study in UX research involves observing users in their natural environment to understand their behaviors, needs, and challenges.</p>
+          </div>
+          <a href="FieldStudy.html" class="bg-zinc-900 text-pink-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-sky-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">First-Click Test</h2>
+            <p class="text-base mb-8">First-Click Test in UX research involves evaluating where users click first when presented with a specific task on a webpage or interface.</p>
+          </div>
+          <a href="FirstClickTest.html" class="bg-zinc-900 text-sky-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-emerald-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Focus Group</h2>
+            <p class="text-base mb-8">Focus Group in UX research involves a moderated discussion with a small group of participants to gather insights about their attitudes, beliefs, and perceptions regarding a product or design.</p>
+          </div>
+          <a href="FocusGroup.html" class="bg-zinc-900 text-emerald-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+        
+        <div class="bg-amber-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Participatory Design</h2>
+            <p class="text-base mb-8">Participatory Design in UX research involves actively involving users and stakeholders in the design process. This collaborative approach ensures that the final product meets the needs and expectations of its users.</p>
+          </div>
+          <a href="ParticipatoryDesign.html" class="bg-zinc-900 text-amber-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-violet-500 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Tree Testing</h2>
+            <p class="text-base mb-8">Tree Testing in UX research involves evaluating the navigability and findability of topics on a website or app by presenting users with a simplified, text-based version of the site’s structure.</p>
+          </div>
+          <a href="TreeTesting.html" class="bg-zinc-900 text-violet-500 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-pink-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Usability Testing</h2>
+            <p class="text-base mb-8">Usability Testing in UX research involves observing users as they interact with a product to evaluate its ease of use and identify any usability issues.</p>
+          </div>
+          <a href="UsabilityTesting.html" class="bg-zinc-900 text-pink-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-sky-600 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Intercept Testing</h2>
+            <p class="text-base mb-8">Intercept Testing in UX research involves approaching users in public spaces or within a digital environment to gather immediate feedback on a product. </p>
+          </div>
+          <a href="InterceptTesting.html" class="bg-zinc-900 text-sky-600 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="bg-emerald-400 px-8 pt-8 rounded-xl w-full flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">Clickstream Analytics</h2>
+            <p class="text-base mb-8">Clickstream Analytics in UX research involves tracking and analyzing the sequence of clicks made by users on a website.</p>
+          </div>
+          <a href="Clickstream Analytics.html" class="bg-zinc-900 text-emerald-400 px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10">Read more</a>
+        </div>
+
+        <div class="h-[237px] w-[577px] flex flex-col justify-between bg-pink-600 px-8 pt-8 rounded-xl">
+          <div class="flex flex-col gap-2.5 self-stretch"><span class="font-bold text-[30px] text-zinc-900">A/B
+              Testing</span><span class="font-normal text-[16px] text-zinc-900">A/B Testing, also known as split testing, is a
+              method used in UX research to compare two versions of a design to determine which one performs better.</span>
+          </div>
+          <div
+            class="w-[183px] h-14 flex justify-center items-center gap-2.5 bg-zinc-900 px-[50px] py-[17px] rounded-tl-xl rounded-tr-xl">
+            <span class="font-bold text-[16px] text-pink-600">Read More</span></div>
+        </div>
+
+        <div class="h-60 w-144 flex flex-col justify-between bg-pink-600 p-8 rounded-xl">
+          <div class="flex flex-col gap-2.5 self-stretch">
+            <span class="font-bold text-2xl text-zinc-900">A/B Testing</span>
+            <span class="font-normal text-base text-zinc-900">
+              A/B Testing, also known as split testing, is a method used in UX research to compare two versions of a design to determine which one performs better.
+            </span>
+          </div>
+          <div class="w-46 h-14 flex justify-center items-center gap-2.5 bg-zinc-900 px-12 py-4 rounded-tl-xl rounded-tr-xl">
+            <a href="#" class="font-bold text-base text-pink-600">Read More</a>
+          </div>
+        </div>
+
+      </div>
+      <!--End of Items-->
+
+      <footer class=" bg-zinc-800 p-8 md:p-12 rounded-xl mb-12 mt-16">
+        <img src="/assets/UXRmethods-CLzcPLbp.svg" alt="" class="mb-8">
+        <div class="flex flex-col md:flex-row md:gap-32">
+          <div class="mb-8 md:mb-10 flex flex-col">
+            <h3 class="mb-2 text-lg text-white font-bold">Project</h3>
+            <a href="About.html" class="text-zinc-400 text-base">About</a>
+            <a href="Contribute.html" class="text-zinc-400 text-base">Contribute</a>
+          </div>
+          <div class="mb-8 md:mb-10 flex flex-col">
+            <h3 class="mb-2 text-lg text-white font-bold">Contact</h3>
+            <a href="mailto:hi@sajjaddashti.ir" class="text-zinc-400 text-base">hi@sajjaddashti.ir</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-sm text-zinc-400">Made with ❤️ for the UX community by <a href="https://sajjaddashti.ir" class="underline">Sajjad Dashti</a>.</p>
+        </div>
+      </footer>
+
+    </div>
+
+
+    <script>
+      //Menu
+      document.getElementById('menu-toggle').addEventListener('click', function () {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('translate-x-full'); // Slide out the menu if hidden
+        menu.classList.toggle('translate-x-0'); // Slide in the menu if visible
+      });
+      document.getElementById('back-button').addEventListener('click', function () {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('translate-x-full'); // Slide out the menu if hidden
+        menu.classList.toggle('translate-x-0'); // Slide in the menu if visible
+      });
+    </script>
+  </body>
+</html>
